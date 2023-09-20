@@ -1,3 +1,5 @@
+(ns learning-clojure.playground)
+
 ; basic math
 (+ 17 25)
 (* 6 7)
@@ -11,8 +13,8 @@
 
 ; defining a function and calling it
 (defn welcome-message
-  []
-  (println "Welcome to Clojure Hell!"))
+   []
+   (println "Welcome to Clojure Hell!"))
 
 (welcome-message)
 
@@ -23,3 +25,10 @@
     (println message)))
 
 (welcome-message-with-name "Sam")
+
+; using if
+(def learning-coljure true)
+
+(if learning-coljure
+  (println "Good luck!")
+  nil)
